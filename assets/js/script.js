@@ -30,8 +30,9 @@ function mulai()
 
 function wa(isi) 
 {
-	open("https://wa.me/6282228386077?text=hai, " + isi)
+    open("https://wa.me/6282228386077?text=" + encodeURIComponent("Hai ka Rayyan, aku mau " + isi))
 }
+
 
 async function makeawish() 
 {
