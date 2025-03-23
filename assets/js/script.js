@@ -30,7 +30,7 @@ function mulai()
 
 function wa(isi) 
 {
-	open("https://wa.me/6282228386077?text=hai" + isi)
+	open("https://wa.me/6282228386077?text=hai, " + isi)
 }
 
 async function makeawish() 
@@ -39,7 +39,7 @@ async function makeawish()
 		value: kado
 	} = await swal.fire({
 		imageUrl: 'assets/img/wuih.png',
-		title: 'Di hari spesial ini, kamu mau apa?',
+		title: 'Di hari ulang tahun ini, kamu mau apa???',
 		imageWidth: 400,
 		imageHeight: 400,
 		confirmButtonColor: '#707372',
@@ -51,7 +51,7 @@ async function makeawish()
 	if (kado) {
 		await swal.fire({
 			imageUrl: 'assets/img/ayaya.png',
-			title: 'Kirim jawabannya ke wa aku ya?',
+			title: 'Kirim jawabannya ke wa aku yaaa?',
 			confirmButtonColor: '#707372',
 			confirmButtonText: 'Kirim ✈'
 		})
