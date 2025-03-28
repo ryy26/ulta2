@@ -29,6 +29,10 @@ function mulai() {
 }
 
 function wa(isi) {
+    if (audio) {
+        audio.pause(); // Pause musik
+        audio.currentTime = 0; // Reset ke awal
+    }
     open("https://wa.me/6282228386077?text=" + encodeURIComponent("Hai ka Rayyan, aku mau " + isi));
 }
 
